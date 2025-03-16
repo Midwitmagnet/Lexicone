@@ -16,6 +16,11 @@ std::string statutename;
 
 std::unique_ptr<pqxx::connection> conn;
 
+//to do
+// discern naming: instead of art_/para/lbl/lbl - make columns with each
+// handle empty articles
+// handle transitional articles
+
 int main() {
 
     std::string dbdata = getdbdata();
@@ -102,10 +107,8 @@ int main() {
 
     get_articles(root, *conn, statute_main_table);
 
+
  
 std::cin.get();
 return 0;
 }
-
-//now: pre: xml file post: text of a norm __ means i can access nodes and, more importantly, text of nodes, independent of whether its an article or not
-//now the next step ought to be: classconstructor, add the text to the class, i suppose? maybe it would be more efficient ot keep them separate?
