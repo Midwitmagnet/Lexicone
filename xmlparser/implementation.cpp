@@ -15,11 +15,6 @@ extern std::string statutename;
 extern std::unique_ptr<pqxx::connection> conn;
 
 
-//fix: inlinename
-
-//fix: disp
-
-//fix: blocklist
 
 
 std::string getdbdata() {
