@@ -27,7 +27,7 @@
     <ClCompile Include="storage.cpp">
       <Filter>Source Files\NewFilter1</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\lexicode\pugixml-1.14\pugixml-1.14\src\pugixml.cpp">
+    <ClCompile Include="..\..\..\..\..\..\..\lexicode\pugixml-1.14\pugixml-1.14\src\pugixml.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
